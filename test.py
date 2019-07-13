@@ -578,6 +578,7 @@ for roll_num in range(100):
     result=die.roll()
     results.append(result)
 # 分析结果
+# 分析结果
 frequencies=[]
 for value in range(1,die.numsides+1):
     frequency=results.count(value)
